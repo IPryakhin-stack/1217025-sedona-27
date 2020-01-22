@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Илья Пряхин](https://up.htmlacademy.ru/htmlcss/27/user/1217025).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/nikita_rogatnev)
 
 ---
 
