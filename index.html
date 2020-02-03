@@ -19,7 +19,7 @@
 
     <main>
       <section class="welcome">
-        <h1>Welcome to Sedona</h1>
+        <h1 class="visually-hidden">Welcome to Sedona</h1>
         <img src="img/welcome.png" width="300" height="300" alt="Welcome to the gorgeous Sedona">
       </section>
 
@@ -97,7 +97,41 @@
       </section>
 
       <div class="search">
-        <!-- Здесь будет форма -->
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="date-in">Дата заезда:</label>
+            <input id="date-in" type="date" name="date-in" value="2017-04-27">
+          </p>
+          <p>
+            <label for="date-out">Дата выезда:</label>
+            <input id="date-out" type="date" name="date-out" value="2017-07-04">
+          </p>
+          <p>
+            <label>
+              Взрослые:
+              <select name="adults">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Дети:
+              <select name="children">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </label>
+          </p>
+          <button type="submit">Найти</button>
+        </form>
       </div>
     </main>
 
