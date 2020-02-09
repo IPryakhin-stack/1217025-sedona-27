@@ -9,9 +9,6 @@ body {
     color: #000000;
     text-transform: uppercase;
     background-color: #ffffff;/**/
-    background-image: url("img/background-photo.jpg");/**/
-    background-position: top center;
-    background-repeat: no-repeat;
 }
 
 a {
@@ -35,6 +32,13 @@ a {
 
 .site-navigation .active-now {
     color: #766357;
+}
+
+.welcome {
+    background-image: url("C:/Users/Huawei 13 wrt/Documents/GitHub/1217025-sedona-27/img/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
 }
 
 .short-description {
