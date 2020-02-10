@@ -35,7 +35,7 @@ a {
 }
 
 .welcome {
-    background-image: url("C:/Users/Huawei 13 wrt/Documents/GitHub/1217025-sedona-27/img/background-photo.jpg");
+    background-image: url("../img/background-photo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
