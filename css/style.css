@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
   
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -21,20 +21,19 @@ a {
     background-color: #ffffff;
 }
 
-.site-navigation-left a:hover,
-.site-navigation-left a:focus,
-.site-navigation-right a:hover,
-.site-navigation-right a:focus {
+.site-navigation a:hover,
+.site-navigation a:focus {
     color: #81b3d2;
 }
 
-.site-navigation-left a:active,
-.site-navigation-right a:active {
+.site-navigation a:active {
     color: #e5e5e5;
 }
 
-.site-navigation .active-now {
-    color: #766357;
+.main-logo {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .welcome {
@@ -310,8 +309,7 @@ body {
     height: 70px;
 }
 
-.site-navigation-right,
-.site-navigation-left {
+.site-navigation {
     width: 440px;
     height: 55px;
     margin: 0;
@@ -325,11 +323,9 @@ body {
     margin: 0 auto;
     display: flex;
     
-
-    
 }
 
-.city-description {
+.description {
     width: 400px;
     padding: 50px 60px;
 }
@@ -355,11 +351,6 @@ body {
     margin: 0 auto;
     display: flex;
     
-}
-
-.bridge-description {
-    width: 400px;
-    padding: 50px 60px;
 }
 
 .bridge-picture {
