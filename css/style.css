@@ -34,6 +34,9 @@ a {
     color: #e5e5e5;
 }
 
+.site-navigation .active-now {
+    color: #766357;
+
 .main-logo {
     position: absolute;
     margin-left: 50%;
