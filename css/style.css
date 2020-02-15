@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-  
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -36,7 +35,7 @@ a {
 
 .site-navigation .active-now {
     color: #766357;
-
+}
 .main-logo {
     position: absolute;
     margin-left: 50%;
@@ -301,12 +300,13 @@ body {
 }
 
 
-
+.inner-page .main-header {
+    margin-bottom: 285px;
+  }
 
 .main-navigation {
     display: flex;
     justify-content: space-between;
-
     width: 1200px;
     margin: 0 auto;
 }
@@ -316,20 +316,31 @@ body {
     height: 70px;
 }
 
+.inner-page .main-logo {
+    width: 140px;
+    height: 70px;
+}
+
 .site-navigation {
-    width: 440px;
+    width: 1200px;
     height: 55px;
     margin: 0;
     padding: 0;
     list-style: none;
+}
 
+.inner-page .site-navigation {
+    width: 1200px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .true-city {
     width: 1200px;
     margin: 0 auto;
-    display: flex;
-    
+    display: flex;   
 }
 
 .description {
@@ -345,7 +356,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    
 }
 
 .city-advantage {
@@ -357,7 +367,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    
 }
 
 .bridge-picture {
@@ -368,7 +377,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    
 }
 
 .area-advantage {
@@ -376,14 +384,33 @@ body {
     padding: 50px 90px;
 }
 
+.hotel {
+    width: 1056px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 5px;
+}
+.hotel-image {
+    width: 165px;
+}
+
+.hotel-description {
+    width: 260px;
+}
+
+.rating {
+    width: 180px;
+    margin-left: auto;
+}
+
 .main-footer {
-    
     padding: 33px 0;
 }
-  .container {
-      display: flex;
-      width: 1056px;
-      margin: 0 auto;
+
+.container {
+    display: flex;
+    width: 1056px;
+    margin: 0 auto;
 }
 
 .contacts {
