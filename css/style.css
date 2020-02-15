@@ -316,10 +316,7 @@ body {
     height: 70px;
 }
 
-.inner-page .main-logo {
-    width: 140px;
-    height: 70px;
-}
+
 
 .site-navigation {
     width: 1200px;
@@ -329,13 +326,7 @@ body {
     list-style: none;
 }
 
-.inner-page .site-navigation {
-    width: 1200px;
-    height: 55px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+
 
 .true-city {
     width: 1200px;
