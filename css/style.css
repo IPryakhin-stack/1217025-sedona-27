@@ -12,6 +12,12 @@ body {
     min-width: 1200px;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /*box-shadow: */
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -42,8 +48,6 @@ input[type="radio"].visually-hidden {
 .main-navigation {
     position: relative;
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 
@@ -65,10 +69,12 @@ input[type="radio"].visually-hidden {
 .site-navigation li {
     width: 240px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .site-navigation li:nth-child(1) {
     padding-left: 72px;
+    text-align: left;
 }
 
 .site-navigation li:nth-child(2) {
@@ -77,6 +83,7 @@ input[type="radio"].visually-hidden {
 
 .site-navigation li:nth-child(4) {
     padding-right: 72px;
+    text-align: right;
 }
 
 .site-navigation a {
@@ -104,9 +111,7 @@ input[type="radio"].visually-hidden {
     height: 70px;
 }
 
-.inner-page .main-header {
-    margin-bottom: 100px;
-}
+
 
 .welcome {
     height: 564px;
@@ -145,8 +150,7 @@ input[type="radio"].visually-hidden {
     font-size: 21px;
     vertical-align: middle;
 
-    width: 1200px;
-    margin: 0 auto;
+    
     display: flex; 
 }
 
@@ -175,8 +179,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     vertical-align: middle;
 
-    width: 1200px;
-    margin: 0 auto;
+    
     display: flex;
 }
 
@@ -259,7 +262,8 @@ input[type="radio"].visually-hidden {
 
 .map {
     background-image: url("../img/map.jpg");
-    width: 1200px;
+    
+    height: 473px;
     margin: 0 auto;
 }
 
@@ -304,33 +308,16 @@ input[type="radio"].visually-hidden {
 
 .main-footer {
     background-color: #ffffff;
-
+    display: flex;
     padding: 33px 0;
     opacity: 0.9;
 }
 
-.container {
-    display: flex;
-    width: 1056px;
-    margin: 0 auto;
+.main-footer div {
+    width: 400px;
+    text-align: center;
 }
 
-.contacts {
-    width: 330px;
-    margin: 0;
-    margin-right: 120px;
-}
-
-.social-media {
-    width: 155px;
-}
-
-.creators {
-    width: 240px;
-    margin: 0;
-    margin-left: auto;
-
-}
 
 .social-list {
     list-style: none;
@@ -372,8 +359,7 @@ input[type="radio"].visually-hidden {
     background-color: #4e81a3;
     background-image: url("../img/filter-background.jpg");
     color: #ffffff;
-    width: 1200px;
-    margin: 0 auto;
+    
 }
 
 .filter {
@@ -645,12 +631,6 @@ input[type="radio"].visually-hidden {
     width: 180px;
     margin-left: auto;
 }
-
-
-
-
-
-
 
 
 
