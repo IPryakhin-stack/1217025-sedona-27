@@ -7,14 +7,9 @@ body {
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
-.grey-back {
-    width: 1280px;
-    margin: 0 auto;
-    background-image: url("../img/grey-back.png");
-}
 
 .container {
     width: 1200px;
@@ -101,7 +96,10 @@ input[type="radio"].visually-hidden {
     color: #e5e5e5;
 }
 
-.site-navigation .active-now {
+.site-navigation .active-now,
+.site-navigation .active-now:hover,
+.site-navigation .active-now:focus,
+.site-navigation .active-now:active {
     color: #766357;
 }
 .main-logo {
@@ -117,9 +115,10 @@ input[type="radio"].visually-hidden {
 
 .welcome {
     height: 564px;
+    background-color: #ffffff;
     background: 
-    url("../img/polygon.png") bottom center no-repeat,
-    url("../img/background-photo.jpg") top center no-repeat;
+    url("../img/polygon.png") center 450px no-repeat,
+    url("../img/background-photo.jpg") center -57px no-repeat;
     text-align: center;
 }
 
@@ -127,13 +126,12 @@ input[type="radio"].visually-hidden {
     margin-top: 75px;
 }
 
-
 .short-description {
     margin: 0 auto;
     width: 1200px;
     background-color: #ffffff;
     text-align: center;
-    padding-top: 60px;
+    
     padding-bottom: 37px;
     
 }
@@ -141,11 +139,31 @@ input[type="radio"].visually-hidden {
 .short-description h2 {
     font-size: 21px;
     line-height: 26px;
-    margin-bottom: 28px;
+    margin:0;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.short-description h2::before {
+    content: "";
+
+    width: 1200px;
+    height: 58px;
+    position: absolute;
+    top: -58px;
+    left: 0px;
+    background-color: #ffffff;
+    
 }
 
 .short-description p {
+    display: block;
     font-weight: 400;
+    padding-left: 355px;
+    padding-right: 355px;
 }
 
 .true-city, 
@@ -178,22 +196,35 @@ input[type="radio"].visually-hidden {
 }
 
 .description h2 {
+    margin: 0;
+    width: 155px;
     line-height: 21px;
     font-size: 21px;
     margin-bottom: 25px;
+    margin-left: 72px;
+    margin-top: 16px;
+    
 }
 .description span {
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
-.description p {
+.true-city p {
     display: block;
     margin: 0 auto;
 }
 
+.devil-bridge p {
+    display: block;
+    width: 305px;
+}
+
+
 .city-picture,
 .bridge-picture {
     width: 800px;
+    line-height: 0;
+    font-size: 0;
 }
 
 .first-group,
@@ -210,7 +241,7 @@ input[type="radio"].visually-hidden {
 
 .city-advantage {
     width: 400px;
-    padding: 60px 50px 65px;
+    padding: 60px 50px 68px;
 }
 
 .city-advantage:nth-child(3) {
@@ -219,19 +250,41 @@ input[type="radio"].visually-hidden {
 
 .area-advantage {
     width: 400px;
-    padding: 50px 70px;
+    display: block;
+    box-sizing: border-box;
+    padding: 46px 70px;
+    padding-bottom: 60px;
 }
 
 .city-advantage h2,
 .area-advantage h2 {
+    margin:0;
     font-size: 21px;
     line-height: 21px;
     margin-bottom: 25px;
 }
 
 .city-advantage h2 {
-    margin-top: 25px;
+    margin-top: 20px;
 }
+
+.area-advantage h2 {
+    display: block;
+    width: 120px;
+    margin-left: 70px;
+    margin-bottom: 26px;
+}
+
+
+.area-advantage span {
+    width: 60px;
+    display: block;
+    margin: 0;
+    margin-left: 100px;
+    margin-bottom: 22px;
+
+}
+
 
 .city-advantage p,
 .area-advantage p,
@@ -241,6 +294,12 @@ input[type="radio"].visually-hidden {
     font-weight: 400;
 }
 
+.area-advantage p {
+    display: block;
+    margin:0;
+}
+
+
 
 .interest {
     color:#000000;
@@ -248,7 +307,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     vertical-align: middle;
     padding-top: 50px;
-    padding-bottom: 33px;
+    padding-bottom: 30px;
 }
 
 .interest h2 {
@@ -258,8 +317,8 @@ input[type="radio"].visually-hidden {
 }
 
 .interest p {
-    margin-top: 40px;
-    margin-bottom: 85px;
+    margin-top: 22px;
+    margin-bottom: 75px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -268,7 +327,10 @@ input[type="radio"].visually-hidden {
 }
 
 .interest a /**/ { 
-    padding: 35px 140px;
+    padding: 30px 140px;
+    padding-top: 28px;
+    padding-bottom: 31px;
+
     
     font-size: 21px;
     line-height: 26px;
@@ -313,6 +375,7 @@ input[type="radio"].visually-hidden {
     margin:0;
     margin-bottom: 20px;
     box-sizing: border-box;
+    position: relative;
 }
 
 
@@ -328,8 +391,9 @@ input[type="radio"].visually-hidden {
 }
 
 .form-item input {
-    width: 345px;
+    width: 350px;
     font: inherit;
+    text-transform: uppercase;
     background-color: #f2f2f2;
     border: none;
     text-align: left;
@@ -349,13 +413,41 @@ input[type="radio"].visually-hidden {
     margin-left: 30px;
 }
 
-.form-item:nth-child(3)::after  {
-    content: "";
-
-    width: 16px;
-    height: 18px;
+.calendar {
     position: absolute;
-    background-color: #ff0000;
+    border:none;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    outline:none;
+}
+
+.minus,
+.plus  {
+    position: absolute;
+    border:none;
+    right: 90px;
+    top: 10px;
+    cursor: pointer;
+    outline-color: none;
+}
+
+.plus {
+    right: 10px;
+    top: 15px;
+}
+
+.calendar path {
+    fill: #a9a9a9;
+}
+
+.calendar:hover path,
+.calendar:focus path {
+    fill: #000000;
+}
+
+.calendar:active path {
+    fill: #81b3d2;
 }
 
 
@@ -365,7 +457,7 @@ input[type="radio"].visually-hidden {
 }
 
 .form-item input:focus {
-    outline: none;
+    outline: #e5e5e5 solid 2px;
     background-color: transparent;
     border: 1px solid #e5e5e5;
 }
@@ -563,6 +655,30 @@ input[type="radio"].visually-hidden {
     background-position: 0 0;
 }
 
+.filter-input-checkbox:disabled + label::before {
+    content: "";
+    position: absolute;
+    left: -42px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/checkbox-off-disabled.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.filter-input-checkbox:checked:disabled + label::before {
+    content: "";
+    position: absolute;
+    left: -42px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/checkbox-on-disabled.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
 .filter-range {
     margin-top: 25px;
     width: 330px;
@@ -703,7 +819,14 @@ input[type="radio"].visually-hidden {
     margin-right: 55px;
 }
 
-.filter-result span {
+.filter-result .filter-features {
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+}
+
+.filter-result li {
     margin-top: 45px;
     font-size: 12px;
     line-height: 18px;
@@ -738,6 +861,47 @@ input[type="radio"].visually-hidden {
     color: #000000;
     border: none;
 }
+
+.arrows {
+    list-style: none;
+    display: flex;
+    padding:0;
+    margin-right: 0;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+.arrows li {
+    margin-top: 30px;
+}
+
+.arrows button {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.arrow path {
+    fill: #cacaca;
+}
+
+.arrow path:hover,
+.arrow path:focus {
+    fill: #231f20;
+}
+
+.arrow path:active {
+    fill: #81b3d2;
+}
+
+.down-arrow path {
+    fill: #81b3d2;
+}
+
+
+
+
 
 
 .hotel {
