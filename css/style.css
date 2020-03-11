@@ -459,7 +459,6 @@ input[type="radio"].visually-hidden {
     right: 12px;
     top: 8px;
     cursor: pointer;
-    outline:none;
 }
 
 .minus  {
@@ -469,7 +468,6 @@ input[type="radio"].visually-hidden {
     right: 95px;
     top: 17px;
     cursor: pointer;
-    outline: none;
 }
 
 .minus::before {
@@ -488,7 +486,6 @@ input[type="radio"].visually-hidden {
     border:none;
     background: none;
     cursor: pointer;
-    outline: none;
     right: 20px;
     top: 17px;
 }
@@ -507,13 +504,19 @@ input[type="radio"].visually-hidden {
 }
 
 
-.minus::before:hover,
-.minus::before:focus,
-.plus::before:hover,
-.plus::before:focus,
-.plus::after:hover,
-.plus::after:focus {
+.minus:hover::before,
+.plus:hover::before,
+.plus:hover::after,
+.minus:focus::before,
+.plus:focus::before,
+.plus:focus::after {
     background-color: #000000;  
+}
+
+.minus:active::before,
+.plus:active::before,
+.plus:active::after {
+    background-color: #81b3d2;
 }
 
 
@@ -649,8 +652,6 @@ input[type="radio"].visually-hidden {
 .academy-logo:active  path {
     fill: #bdbbbc;
 }
-
-
 
 /*Дальше стили для каталога*/
 
@@ -1119,20 +1120,16 @@ input[type="radio"].visually-hidden {
     margin-bottom: auto;
     margin-top: 5px;
     right: 70px;
-    width: 90px;
-    background: url("../img/star.svg")  space;
+    height: 17px;
+    background: url("../img/star.svg")  repeat;
 }
 
-.stars span {
-    color: transparent;
-}
-
-.hotel:nth-child(1) .stars {
+ .hotel:nth-child(1) .stars {
     width: 90px;
 }
 
 .hotel:nth-child(2) .stars {
-    width: 66px;
+    width: 65px;
 }
 
 .hotel:nth-child(3) .stars {
