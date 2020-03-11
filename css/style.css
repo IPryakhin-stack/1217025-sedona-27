@@ -323,7 +323,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     vertical-align: middle;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 28px;
 }
 
 .interest h2 {
@@ -333,8 +333,8 @@ input[type="radio"].visually-hidden {
 }
 
 .interest p {
-    margin-top: 22px;
-    margin-bottom: 75px;
+    margin-top: 23px;
+    margin-bottom: 77px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -345,9 +345,9 @@ input[type="radio"].visually-hidden {
 .interest a { 
     padding: 30px 140px;
     padding-top: 28px;
-    padding-bottom: 31px;
-
-    
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    height: 86px;
     font-size: 21px;
     line-height: 26px;
     color: #ffffff;
@@ -369,9 +369,9 @@ input[type="radio"].visually-hidden {
     width: 570px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 56px;
+    padding-top: 54px;
     padding-left: 56px;
-    padding-bottom: 56px;
+    padding-bottom: 54px;
     box-sizing: border-box;
 }
 
@@ -390,7 +390,7 @@ input[type="radio"].visually-hidden {
 
 .form-item {
     margin:0;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     box-sizing: border-box;
     position: relative;
 }
@@ -400,12 +400,12 @@ input[type="radio"].visually-hidden {
 }
 
 .form-item:nth-child(3) {
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-right: 55px;
+    margin-bottom: 53px;
 }
 
 .form-item:nth-child(4) {
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 }
 
 .form-item:nth-child(1) label,
@@ -430,7 +430,7 @@ input[type="radio"].visually-hidden {
 }
 
 .form-item:nth-child(2)  input {
-    margin-left: 18px;
+    margin-left: 15px;
 }
 
 .form-item:nth-child(3)  input,
@@ -438,16 +438,18 @@ input[type="radio"].visually-hidden {
     width: 112px;
     text-align: center;
     position: relative;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .form-item:nth-child(3)  input {
-    margin-left: 40px;
+    margin-left: 37px;
+    padding-bottom: 6px;
 }
 
 .form-item:nth-child(4)  input {
-    margin-left: 30px;
-    padding-left: 0;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-bottom: 6px;
 }
 
 .calendar {
@@ -462,32 +464,34 @@ input[type="radio"].visually-hidden {
 }
 
 .minus  {
+    width: 13px;
+    height: 13px;
     position: absolute;
     border:none;
     background: none;
-    right: 95px;
-    top: 17px;
+    right: 87px;
+    top: 11px;
     cursor: pointer;
 }
 
 .minus::before {
     content: "";
-
     position: absolute;
-
     width: 10px;
     height: 3px;
-
+    right: 1px;
     background-color: #a9a9a9;
 }
 
 .plus {
+    width: 13px;
+    height: 13px;
     position: absolute;
     border:none;
     background: none;
     cursor: pointer;
-    right: 20px;
-    top: 17px;
+    right: 12px;
+    top: 11px;
 }
 
 .plus::before,
@@ -497,6 +501,7 @@ input[type="radio"].visually-hidden {
     width: 11px;
     height: 3px;
     background-color: #a9a9a9;
+    right: 1px;
 }
 
 .plus::before {
@@ -555,9 +560,9 @@ input[type="radio"].visually-hidden {
     font-size: 21px;
     line-height: 26px;
     padding-left: 196px;
-    padding-right: 199px;
+    padding-right: 196px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     cursor: pointer;
 }
 
@@ -576,7 +581,8 @@ input[type="radio"].visually-hidden {
 .main-footer {
     background-color: #ffffff;
     display: flex;
-    padding: 35px 0;
+    padding-top: 33px;
+    padding-bottom: 35px;
     opacity: 0.9;
 }
 
@@ -634,9 +640,9 @@ input[type="radio"].visually-hidden {
 }
 
 .creators span {
-    margin-left: 100px;
+    margin-left: 103px;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .creators svg {
@@ -1121,18 +1127,20 @@ input[type="radio"].visually-hidden {
     margin-top: 5px;
     right: 70px;
     height: 17px;
-    background: url("../img/star.svg")  repeat;
-}
-
- .hotel:nth-child(1) .stars {
     width: 90px;
+    background: url("../img/star.svg")  space;
+    margin-right: 2px;
 }
 
-.hotel:nth-child(2) .stars {
+ .hotel:nth-child(3) .stars {
+    width: 89px;
+}
+
+.hotel:nth-child(4) .stars {
     width: 65px;
 }
 
-.hotel:nth-child(3) .stars {
+.hotel:nth-child(5) .stars {
     width: 41px;
 }
 
