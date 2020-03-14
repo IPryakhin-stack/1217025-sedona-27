@@ -578,19 +578,22 @@ input[type="radio"].visually-hidden {
 }
 
 
-.main-footer {
+.footer {
     background-color: #ffffff;
     display: flex;
-    padding-top: 33px;
+    padding-top: 35px;
     padding-bottom: 35px;
     opacity: 0.9;
 }
 
-.main-footer div {
+.footer div {
     width: 400px;
     text-align: center;
 }
 
+.main-footer {
+    opacity: 0.9;
+}
 .contacts {
     font-size: 21px;
     line-height: 26px;
@@ -641,7 +644,7 @@ input[type="radio"].visually-hidden {
 
 .creators span {
     margin-left: 103px;
-    margin-top: 10px;
+    margin-top: 11px;
     margin-right: 8px;
 }
 
@@ -650,6 +653,10 @@ input[type="radio"].visually-hidden {
     height: 40px;
 }
 
+.academy-logo {
+    display: block;
+    margin-top: 5px;
+}
 .academy-logo:hover path,
 .academy-logo:focus  path {
     fill: #81b3d2;
@@ -898,6 +905,11 @@ input[type="radio"].visually-hidden {
     cursor: pointer;
 }
 
+.btn-transparent:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
 .filter-result {
     background-color: #ffffff;
     width: 1056px;
@@ -943,7 +955,7 @@ input[type="radio"].visually-hidden {
 .filter-result .by-rating {
     margin-right: 34px; 
     color: #cacaca;
-    border-bottom: 1px dashed #81b3d2;
+    border-bottom: 1px dotted #81b3d2;
 }
 
 .filter-result .by-rating {
@@ -990,21 +1002,22 @@ input[type="radio"].visually-hidden {
 
 .arrows button:last-child {
     padding-right: 0px;
+    fill: #81b3d2;
 }
 
 
 
 
-.arrow path {
+.up-arrow path {
     fill: #cacaca;
 }
 
-.arrow path:hover,
-.arrow path:focus {
+.up-arrow path:hover,
+.up-arrow path:focus {
     fill: #231f20;
 }
 
-.arrow path:active {
+.up-arrow path:active {
     fill: #81b3d2;
 }
 
@@ -1048,7 +1061,6 @@ input[type="radio"].visually-hidden {
     font-size: 21px;
     line-height: 26px;
     display: block;
-    margin-top: 2px;
     
 }
 
