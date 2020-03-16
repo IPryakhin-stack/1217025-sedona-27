@@ -373,13 +373,25 @@ input[type="radio"].visually-hidden {
     padding-left: 56px;
     padding-bottom: 54px;
     box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+    transform: translateX(315px) ;
+}
+
+.search-remove {
+    display: none;
 }
 
 .map {
     background-image: url("../img/map.jpg");
-    
+    position: relative;
     height: 475px;
     margin: 0 auto;
+}
+
+.map iframe {
+    position: absolute;
+    top:0;
 }
 
 .search-form {

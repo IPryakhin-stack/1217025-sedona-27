@@ -1,0 +1,1 @@
+var link=document.querySelector(".show-map"),popup=document.querySelector(".search");link.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("search-remove")});
