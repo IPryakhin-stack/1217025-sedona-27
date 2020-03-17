@@ -115,7 +115,7 @@ input[type="radio"].visually-hidden {
 
 .welcome {
     height: 564px;
-    background-color: #ffffff;
+    background-color: #81b3d2;
     background: 
     url("../img/polygon.png") center 450px no-repeat,
     url("../img/background-photo.jpg") center -57px no-repeat;
@@ -384,6 +384,7 @@ input[type="radio"].visually-hidden {
 
 .map {
     background-image: url("../img/map.jpg");
+    background-color: #aab39f;
     position: relative;
     height: 475px;
     margin: 0 auto;
@@ -1055,6 +1056,7 @@ input[type="radio"].visually-hidden {
     font-size: 0;
     margin-right: 30px;
     margin-top: 7px;
+    max-width: 140px;
 }
 
 .hotel-description {
