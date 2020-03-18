@@ -1,3 +1,4 @@
+
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 body {
@@ -11,7 +12,6 @@ body {
     text-transform: uppercase;
     background-color: #f2f2f2;
 }
-
 
 .container {
     width: 1200px;
@@ -58,7 +58,6 @@ input[type="radio"].visually-hidden {
 
 
 .site-navigation {
-    position: relative;
     list-style: none;
     background-color: #ffffff;
     display: -webkit-box;
@@ -122,6 +121,7 @@ input[type="radio"].visually-hidden {
             transform: translateX(-50%);
 
     width: 140px;
+    max-width: 140px;
     height: 70px;
 }
 
