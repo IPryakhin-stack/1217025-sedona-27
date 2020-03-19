@@ -113,6 +113,7 @@ input[type="radio"].visually-hidden {
 .site-navigation .active-now:active {
     color: #766357;
 }
+
 .main-logo {
     position: absolute;
     left: 0;
