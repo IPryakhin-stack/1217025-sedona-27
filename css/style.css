@@ -461,6 +461,8 @@ input[type="radio"].visually-hidden {
 
 .form-item input {
     width: 347px;
+    height: 38px;
+    min-height: 38px;
     font: inherit;
     text-transform: uppercase;
     background-color: #f2f2f2;
@@ -486,6 +488,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     position: relative;
     padding-left: 10px;
+    line-height: 1;
 }
 
 .form-item:nth-child(3)  input {
@@ -573,19 +576,9 @@ input[type="radio"].visually-hidden {
     background-color: #81b3d2;
 }
 
-
-input::-ms-clear {  display: none; width : 0; height: 0; }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
-    .minus, .plus {
-      top: 15px;
+.form-item [type=text]::-ms-clear{
+    display: none;
     }
-    .form-item:nth-child(3)  input,
-    .form-item:nth-child(4)  input {
-        padding-top:4px;
-        padding-bottom: 9px;
-    }
-  }
 
 .calendar path {
     fill: #a9a9a9;
