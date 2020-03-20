@@ -574,6 +574,19 @@ input[type="radio"].visually-hidden {
 }
 
 
+input::-ms-clear {  display: none; width : 0; height: 0; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+    .minus, .plus {
+      top: 15px;
+    }
+    .form-item:nth-child(3)  input,
+    .form-item:nth-child(4)  input {
+        padding-top:4px;
+        padding-bottom: 9px;
+    }
+  }
+
 .calendar path {
     fill: #a9a9a9;
 }
