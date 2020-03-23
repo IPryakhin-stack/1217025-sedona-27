@@ -70,7 +70,6 @@ input[type="radio"].visually-hidden {
     padding: 0;
     padding-top: 15px;
     padding-bottom: 16px;
-
 }
 
 .site-navigation li {
@@ -145,9 +144,7 @@ input[type="radio"].visually-hidden {
     width: 1200px;
     background-color: #ffffff;
     text-align: center;
-    
     padding-bottom: 37px;
-    
 }
 
 .short-description h2 {
@@ -189,11 +186,8 @@ input[type="radio"].visually-hidden {
     font-size: 21px;
     vertical-align: middle;
     font-weight: 400;
-    
     display: -webkit-box;
-    
     display: -ms-flexbox;
-    
     display: flex; 
 }
 
@@ -222,7 +216,6 @@ input[type="radio"].visually-hidden {
     margin-bottom: 25px;
     margin-left: 72px;
     margin-top: 16px;
-    
 }
 
 .description span {
@@ -305,7 +298,6 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-left: 100px;
     margin-bottom: 22px;
-
 }
 
 .city-advantage p,
@@ -494,16 +486,11 @@ input[type="radio"].visually-hidden {
     width: 114px;
     height: 38px;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 36px;
     font: inherit;
     text-transform: uppercase;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
-    
-}
-
-.form-container:nth-of-type(2) {
-    margin-left: 37px;
 }
 
 .form-container input {
@@ -536,7 +523,6 @@ input[type="radio"].visually-hidden {
     position: relative;
     border:none;
     background: none;
-    
     cursor: pointer;
 }
 
@@ -556,8 +542,7 @@ input[type="radio"].visually-hidden {
     position: relative;
     border:none;
     background: none;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .plus::before,
@@ -594,7 +579,7 @@ input[type="radio"].visually-hidden {
 
 .form-item [type=text]::-ms-clear{
     display: none;
-    }
+}
 
 .calendar path {
     fill: #a9a9a9;
@@ -720,7 +705,7 @@ input[type="radio"].visually-hidden {
 
 .social-button:active {
     background-color: #5496bd;
-  }
+}
 
 .social-button:active path {
     fill: #88b6d1;
@@ -767,7 +752,6 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/filter-background.jpg");
     background-position: center -60px;
     color: #ffffff;
-    
 }
 
 .filter {
@@ -782,8 +766,6 @@ input[type="radio"].visually-hidden {
     margin-right: 40px;
     border: none;
 }
-
-
 
 .filter legend {
     margin-bottom: 20px;
@@ -826,7 +808,6 @@ input[type="radio"].visually-hidden {
     position: absolute;
     left: -42px;
     top: 0;
-  
     width: 25px;
     height: 25px;
     background-image: url("../img/checkbox-off.svg");
@@ -839,7 +820,6 @@ input[type="radio"].visually-hidden {
     position: absolute;
     left: -42px;
     top: 0;
-  
     width: 25px;
     height: 25px;
     background-image: url("../img/checkbox-on.svg");
@@ -904,7 +884,6 @@ input[type="radio"].visually-hidden {
     left: 50%;
     width: 2px;
     height: 22px;
-  
     background: #ffffff;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -913,11 +892,9 @@ input[type="radio"].visually-hidden {
 
 .price-controls label {
     display: inline-block;
-  
     font-size: 14px;
     line-height: 38px;
     vertical-align: top;
-  
     cursor: pointer;
 }
 
@@ -937,14 +914,12 @@ input[type="radio"].visually-hidden {
     min-height: 30px;
     color: inherit;
     font: inherit;
-  
     background: none;
     border: none;
 }
 
 .range-controls {
     position: relative;
-  
     margin-bottom: 32px;
 }
 
@@ -957,17 +932,14 @@ input[type="radio"].visually-hidden {
 .range-controls .bar {
     width: 80%;
     height: 2px;
-  
     background: #ffffff;
 }
 
 .range-toggle {
     position: absolute;
     top: -9px;
-
     width: 4px;
     height: 4px;
-  
     background: #ababab;
     border: 8px solid #ffffff;
     border-radius: 50%;
@@ -995,15 +967,12 @@ input[type="radio"].visually-hidden {
     width: 135px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-
     padding-top: 7px;
     padding-bottom: 5px; 
-  
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
     text-transform: uppercase;
-  
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -1049,7 +1018,6 @@ input[type="radio"].visually-hidden {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
-   
 }
 
 .filter-result .sorting {
@@ -1115,9 +1083,6 @@ input[type="radio"].visually-hidden {
     padding-right: 0px;
     fill: #81b3d2;
 }
-
-
-
 
 .up-arrow path {
     fill: #cacaca;
