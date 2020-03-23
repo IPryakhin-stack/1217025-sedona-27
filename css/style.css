@@ -1,4 +1,3 @@
-
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 body {
@@ -24,6 +23,7 @@ a {
     text-decoration: none;
     color: #000000;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -127,8 +127,6 @@ input[type="radio"].visually-hidden {
     height: 70px;
 }
 
-
-
 .welcome {
     height: 564px;
     background-color: #81b3d2;
@@ -226,10 +224,12 @@ input[type="radio"].visually-hidden {
     margin-top: 16px;
     
 }
+
 .description span {
     display: block;
     margin-bottom: 21px;
 }
+
 .true-city p {
     display: block;
     margin: 0 auto;
@@ -299,7 +299,6 @@ input[type="radio"].visually-hidden {
     margin-bottom: 26px;
 }
 
-
 .area-advantage span {
     width: 60px;
     display: block;
@@ -308,7 +307,6 @@ input[type="radio"].visually-hidden {
     margin-bottom: 22px;
 
 }
-
 
 .city-advantage p,
 .area-advantage p,
@@ -338,8 +336,6 @@ input[type="radio"].visually-hidden {
 .area-advantage:nth-child(3) p {
     margin-left: 2px;
 }
-
-
 
 .interest {
     color:#000000;
@@ -492,6 +488,8 @@ input[type="radio"].visually-hidden {
 }
 
 .form-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 114px;
     height: 38px;
@@ -508,11 +506,11 @@ input[type="radio"].visually-hidden {
     margin-left: 37px;
 }
 
-
 .form-container input {
     width: 38px;
     height: 38px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     text-align: center;
     line-height: 1;
     font: inherit;
@@ -520,8 +518,6 @@ input[type="radio"].visually-hidden {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
 }
-
-
 
 .calendar {
     padding:0;
@@ -533,7 +529,6 @@ input[type="radio"].visually-hidden {
     top: 8px;
     cursor: pointer;
 }
-
 
 .minus  {
     width: 38px;
@@ -582,7 +577,6 @@ input[type="radio"].visually-hidden {
             transform: rotate(90deg);
 }
 
-
 .minus:hover::before,
 .plus:hover::before,
 .plus:hover::after,
@@ -614,8 +608,6 @@ input[type="radio"].visually-hidden {
 .calendar:active path {
     fill: #81b3d2;
 }
-
-
 
 .form-item input:hover,
 .form-container:hover,
@@ -690,7 +682,6 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-left: 90px;
 }
-
 
 .social-list {
     list-style: none;
@@ -1060,6 +1051,7 @@ input[type="radio"].visually-hidden {
     font-weight: 400;
    
 }
+
 .filter-result .sorting {
     margin-right: 39px;
 }
@@ -1277,7 +1269,7 @@ input[type="radio"].visually-hidden {
     margin-right: 2px;
 }
 
- .hotel:nth-child(1) .stars {
+.hotel:nth-child(1) .stars {
     width: 89px;
 }
 
